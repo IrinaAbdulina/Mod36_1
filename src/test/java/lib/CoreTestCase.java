@@ -21,13 +21,6 @@ public class CoreTestCase {
 
         this.driver = new AndroidDriver<WebElement>(URL, this.getAndroidDesiredCapabilities());
 
-        /*if (PlatformSelector.PLATFORM == "android") {
-            this.driver = new AndroidDriver<WebElement>(URL, this.getAndroidDesiredCapabilities());
-        } /*else if (PlatformSelector.PLATFORM == "ios") {
-            this.driver = new IOSDriver<WebElement>(URL, this.getIOSDesiredCapabilities());
-        } else {
-            throw new Exception("Cannot run Appium session with the platform equals " + PlatformSelector.PLATFORM);
-        }*/
     }
 
     @After
