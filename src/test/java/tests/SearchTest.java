@@ -44,8 +44,8 @@ public class SearchTest extends CoreTestCase {
         searchInput.sendKeys("Java");
 
         WebElement expectedResult = mainPO.waitForElementPresent(
-        //        "xpath://*[./*[contains(@text, 'Island of Indonesia, Southeast Asia')]]",
-                "xpath://*[./*[contains(@text, 'wfewfewfwegweg')]]",
+             "xpath://*[./*[contains(@text, 'Island of Indonesia, Southeast Asia')]]",
+           //     "xpath://*[./*[contains(@text, 'wfewfewfwegweg')]]",
                 "Error3"
         );
 
